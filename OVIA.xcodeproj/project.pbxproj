@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F43BF7D271B0FE50088AEE5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF7C271B0FE50088AEE5 /* Crypto.swift */; };
+		9F43BF80271B14C90088AEE5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF7F271B14C90088AEE5 /* WebViewController.swift */; };
+		9F43BF82271B2BAA0088AEE5 /* NetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF81271B2BAA0088AEE5 /* NetworkCalls.swift */; };
+		9F43BF84271B2C2E0088AEE5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF83271B2C2E0088AEE5 /* Settings.swift */; };
+		9F43BF87271B32B60088AEE5 /* SignInModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF86271B32B60088AEE5 /* SignInModels.swift */; };
+		9F43BF89271B4FEB0088AEE5 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF88271B4FEB0088AEE5 /* Spinner.swift */; };
+		9F43BF8E271B643A0088AEE5 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43BF8D271B643A0088AEE5 /* UIKit+Extensions.swift */; };
+		9F52BBA42719DC5600FC80CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F52BBA32719DC5600FC80CF /* LoginViewController.swift */; };
+		9F52BBA52719DC9F00FC80CF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F52BBA72719DC9F00FC80CF /* Login.storyboard */; };
+		9F52BBAA2719E9AC00FC80CF /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F52BBA92719E9AC00FC80CF /* Auth.swift */; };
+		9F6C3B0B271C58A300C9191E /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C3B0A271C58A300C9191E /* Foundation+Extensions.swift */; };
+		9FAB52CD271DB5C2002300DE /* DirectoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB52CC271DB5C2002300DE /* DirectoryPicker.swift */; };
+		9FAB52CF271DBE35002300DE /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB52CE271DBE35002300DE /* Files.swift */; };
+		9FBFCB3A271A312100EFD99B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBFCB39271A312100EFD99B /* Alerts.swift */; };
+		9FC1613827170BB100321C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1613727170BB100321C41 /* AppDelegate.swift */; };
+		9FC1613C27170BB100321C41 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1613B27170BB100321C41 /* MainViewController.swift */; };
+		9FC1613F27170BB100321C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1613D27170BB100321C41 /* Main.storyboard */; };
+		9FC1614127170BB200321C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1614027170BB200321C41 /* Assets.xcassets */; };
+		C3F73AE2636138F2AC8D3D67 /* Pods_OVIA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3C2A3549883F57AD11552E /* Pods_OVIA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B3C2A3549883F57AD11552E /* Pods_OVIA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OVIA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3C92FBE0F75C842992179C /* Pods-OVIA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVIA.debug.xcconfig"; path = "Target Support Files/Pods-OVIA/Pods-OVIA.debug.xcconfig"; sourceTree = "<group>"; };
+		9F43BF7C271B0FE50088AEE5 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		9F43BF7F271B14C90088AEE5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9F43BF81271B2BAA0088AEE5 /* NetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalls.swift; sourceTree = "<group>"; };
+		9F43BF83271B2C2E0088AEE5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9F43BF86271B32B60088AEE5 /* SignInModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModels.swift; sourceTree = "<group>"; };
+		9F43BF88271B4FEB0088AEE5 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		9F43BF8D271B643A0088AEE5 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		9F52BBA32719DC5600FC80CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F52BBA62719DC9F00FC80CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		9F52BBA92719E9AC00FC80CF /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		9F6C3B0A271C58A300C9191E /* Foundation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
+		9FAB52CC271DB5C2002300DE /* DirectoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryPicker.swift; sourceTree = "<group>"; };
+		9FAB52CE271DBE35002300DE /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		9FBFCB39271A312100EFD99B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		9FC1613427170BB100321C41 /* OVIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC1613727170BB100321C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FC1613B27170BB100321C41 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9FC1613E27170BB100321C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FC1614027170BB200321C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC1614527170BB200321C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA5C089A9DD905A93190498 /* Pods-OVIA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVIA.release.xcconfig"; path = "Target Support Files/Pods-OVIA/Pods-OVIA.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC1613127170BB100321C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F73AE2636138F2AC8D3D67 /* Pods_OVIA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A4ADF186F122D4A8241E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3C2A3549883F57AD11552E /* Pods_OVIA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77B552383900D0C210CABF16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D3C92FBE0F75C842992179C /* Pods-OVIA.debug.xcconfig */,
+				CFA5C089A9DD905A93190498 /* Pods-OVIA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F43BF7E271B14A10088AEE5 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				9F43BF7F271B14C90088AEE5 /* WebViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		9F43BF85271B327F0088AEE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F43BF86271B32B60088AEE5 /* SignInModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F43BF8C271B64170088AEE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F43BF8D271B643A0088AEE5 /* UIKit+Extensions.swift */,
+				9F6C3B0A271C58A300C9191E /* Foundation+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9F52BB9F2719D92200FC80CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F52BBA22719D98A00FC80CF /* Main */,
+				9F43BF7E271B14A10088AEE5 /* WebView */,
+				9F52BBA12719D97E00FC80CF /* Login */,
+				9F52BBA02719D92A00FC80CF /* Storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F52BBA02719D92A00FC80CF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1613D27170BB100321C41 /* Main.storyboard */,
+				9F52BBA72719DC9F00FC80CF /* Login.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9F52BBA12719D97E00FC80CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F52BBA32719DC5600FC80CF /* LoginViewController.swift */,
+				9F43BF88271B4FEB0088AEE5 /* Spinner.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9F52BBA22719D98A00FC80CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1613B27170BB100321C41 /* MainViewController.swift */,
+				9FAB52CC271DB5C2002300DE /* DirectoryPicker.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9F52BBA82719E99800FC80CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FBFCB39271A312100EFD99B /* Alerts.swift */,
+				9F43BF7C271B0FE50088AEE5 /* Crypto.swift */,
+				9FAB52CE271DBE35002300DE /* Files.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9FBFCB352719EC0700EFD99B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9F52BBA92719E9AC00FC80CF /* Auth.swift */,
+				9F43BF83271B2C2E0088AEE5 /* Settings.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		9FBFCB36271A28AD00EFD99B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F43BF81271B2BAA0088AEE5 /* NetworkCalls.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9FC1612B27170BB100321C41 = {
+			isa = PBXGroup;
+			children = (
+				9FC1613627170BB100321C41 /* OVIA */,
+				9FC1613527170BB100321C41 /* Products */,
+				77B552383900D0C210CABF16 /* Pods */,
+				32A4ADF186F122D4A8241E97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC1613527170BB100321C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1613427170BB100321C41 /* OVIA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC1613627170BB100321C41 /* OVIA */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1613727170BB100321C41 /* AppDelegate.swift */,
+				9FBFCB352719EC0700EFD99B /* User */,
+				9F52BB9F2719D92200FC80CF /* Controller */,
+				9FBFCB36271A28AD00EFD99B /* Network */,
+				9F43BF85271B327F0088AEE5 /* Models */,
+				9F52BBA82719E99800FC80CF /* Utils */,
+				9F43BF8C271B64170088AEE5 /* Extensions */,
+				9FC1614027170BB200321C41 /* Assets.xcassets */,
+				9FC1614527170BB200321C41 /* Info.plist */,
+			);
+			path = OVIA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC1613327170BB100321C41 /* OVIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC1614827170BB200321C41 /* Build configuration list for PBXNativeTarget "OVIA" */;
+			buildPhases = (
+				9153BDF15AD8D84B32FC1B11 /* [CP] Check Pods Manifest.lock */,
+				9FC1613027170BB100321C41 /* Sources */,
+				9FC1613127170BB100321C41 /* Frameworks */,
+				9FC1613227170BB100321C41 /* Resources */,
+				0484510828A5720CA2637283 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OVIA;
+			productName = OVIA;
+			productReference = 9FC1613427170BB100321C41 /* OVIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC1612C27170BB100321C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9FC1613327170BB100321C41 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 9FC1612F27170BB100321C41 /* Build configuration list for PBXProject "OVIA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC1612B27170BB100321C41;
+			productRefGroup = 9FC1613527170BB100321C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC1613327170BB100321C41 /* OVIA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC1613227170BB100321C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F52BBA52719DC9F00FC80CF /* Login.storyboard in Resources */,
+				9FC1614127170BB200321C41 /* Assets.xcassets in Resources */,
+				9FC1613F27170BB100321C41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0484510828A5720CA2637283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OVIA/Pods-OVIA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OVIA/Pods-OVIA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OVIA/Pods-OVIA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9153BDF15AD8D84B32FC1B11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OVIA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC1613027170BB100321C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F43BF89271B4FEB0088AEE5 /* Spinner.swift in Sources */,
+				9F43BF7D271B0FE50088AEE5 /* Crypto.swift in Sources */,
+				9FAB52CF271DBE35002300DE /* Files.swift in Sources */,
+				9F43BF8E271B643A0088AEE5 /* UIKit+Extensions.swift in Sources */,
+				9FAB52CD271DB5C2002300DE /* DirectoryPicker.swift in Sources */,
+				9F52BBAA2719E9AC00FC80CF /* Auth.swift in Sources */,
+				9F52BBA42719DC5600FC80CF /* LoginViewController.swift in Sources */,
+				9F6C3B0B271C58A300C9191E /* Foundation+Extensions.swift in Sources */,
+				9FC1613C27170BB100321C41 /* MainViewController.swift in Sources */,
+				9F43BF80271B14C90088AEE5 /* WebViewController.swift in Sources */,
+				9FC1613827170BB100321C41 /* AppDelegate.swift in Sources */,
+				9F43BF84271B2C2E0088AEE5 /* Settings.swift in Sources */,
+				9F43BF82271B2BAA0088AEE5 /* NetworkCalls.swift in Sources */,
+				9FBFCB3A271A312100EFD99B /* Alerts.swift in Sources */,
+				9F43BF87271B32B60088AEE5 /* SignInModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F52BBA72719DC9F00FC80CF /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F52BBA62719DC9F00FC80CF /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		9FC1613D27170BB100321C41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC1613E27170BB100321C41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC1614627170BB200321C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FC1614727170BB200321C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC1614927170BB200321C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3C92FBE0F75C842992179C /* Pods-OVIA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QG55885X9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OVIA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oversecured.OVIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9FC1614A27170BB200321C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA5C089A9DD905A93190498 /* Pods-OVIA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QG55885X9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OVIA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oversecured.OVIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC1612F27170BB100321C41 /* Build configuration list for PBXProject "OVIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC1614627170BB200321C41 /* Debug */,
+				9FC1614727170BB200321C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC1614827170BB200321C41 /* Build configuration list for PBXNativeTarget "OVIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC1614927170BB200321C41 /* Debug */,
+				9FC1614A27170BB200321C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC1612C27170BB100321C41 /* Project object */;
+}
