@@ -2,7 +2,7 @@
 Oversecured Vulnerable iOS App is an iOS app that aggregates all the platform's known and popular security vulnerabilities.
 
 ## List of vulnerabilities
-This section only includes the list of vulnerabilities, without a detailed description or proof of concept. Examples from OVIA will receive detailed examination and analysis on [our blog](https://blog.oversecured.com/).
+This section only includes the list of vulnerabilities, without a detailed description or proof of concept. Examples from this intentionally vulnerable app will receive detailed examination and analysis on [our blog](https://blog.oversecured.com/).
 
 1. Enabled iTunes file sharing allowing to browse and access files from `Documents` directory in file `Info.plist`.
 2. Session theft via `ovia://deeplink/webview?url=...` deeplink.
